@@ -17,7 +17,6 @@
 }
 
 /*
-  Typographic tweaks!
   3. Add accessible line-height
   4. Improve text rendering
 */
@@ -76,6 +75,10 @@ a {
 
 ul {
   list-style: none;
+}
+
+.container {
+  min-width: 100vh;
 }
 
 .header {
@@ -530,6 +533,7 @@ h6 {
   position: relative;
   border-radius: 10px;
   margin-block: 24px;
+  margin-inline: auto;
 }
 
 .post-card-image img {
